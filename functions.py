@@ -77,6 +77,8 @@ fig.update_layout(
 # Create dashboard
 app = dash.Dash(__name__)
 
+server = app.server
+
 # Dashboard layout
 app.layout = html.Div(
     style={
